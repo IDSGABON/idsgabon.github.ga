@@ -1,0 +1,398 @@
+/* élement principal de la page */
+
+body
+{
+	background-color: dimgray; font-family: arial, time new roman, georgia; color: #181818;
+}
+
+#bloc_page
+{
+	width: 1000px;
+	margin: auto;
+}
+
+section h1, nav a
+{
+	font-family: dayrom, arial, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* élement d'entête */
+
+header 
+{ 
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#titre_principal
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#logo
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+#logo img
+{
+	width: 100px;
+	height: 60px;
+	margin-top: 2em;
+	border-radius: 10px
+}
+
+header h1
+{
+	font-family: ballparkweiner, serif;
+	font-size: 2.1em;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 5px 5px 5px black;
+}
+
+header h2
+{
+	font-family: dayrom, serif;
+	font-size: 1,05em;
+	margin-top: 0px;
+	font-weight: normal;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 5px 5px 5px black;
+}
+
+/* liens de navigations*/
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li
+{
+	margin-right: 10px
+}
+
+nav a
+{
+	font-size: 1em;
+	color: white;
+	padding-bottom: 3px;
+	text-decoration: none;
+	text-shadow: 2px 2px 1px black;
+}
+
+nav a:hover  
+{
+	color: #760001;
+	border-bottom: 3px solid #760001;
+} 
+
+/* Bannière d'IDS*/
+
+#image_sécuridoc
+{
+	margin-top: 5em;
+	width: 1000px;
+	height: 210px;
+	border-radius: 4px;
+	background: url(img/site ids.png) no-repeat;
+	position: relative;
+	box-shadow: 5px 10px 10px #1c1a19;
+	margin-bottom: 50px;
+}
+
+#sécuridoc_description
+{
+	position: absolute;
+	bottom:5px;
+	border-radius: 0px 0px 6px 6px;
+	width: 99.5%;
+	height: 33px;
+	padding-top: 15px;
+	padding-left: 4px;
+	background-color: rgba(24,24,24,0.8);
+	color: white;
+	font-size: 1em;
+}
+
+.bouton_rouge
+{
+	height: 33px;
+	position: absolute;
+	right: 4px;
+	bottom: 5px;
+	border: 1px solid #760001;
+	border-radius: 5px;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 0px 8px 0px 8px;
+	color: white;
+	text-decoration: none;
+	background-color: red;
+}
+
+/*corps de la page*/ 
+
+#images
+{
+	margin-left: 2em;
+	margin-bottom: 2em;
+	margin-top: 5em;
+}
+
+#images img
+{
+	margin-top: 2em;
+	border-radius: 10px
+}
+
+section
+{
+	display: flex;
+	margin-bottom: 20px;
+	margin-top: 20PX;
+}
+#set
+{
+	margin-top: 5em;
+}
+article, aside
+{
+	text-align: justify;
+}
+
+article
+{
+	margin-right: 20px;
+	flex: 3;
+}
+
+article p
+{
+	font-size: 1em;
+	color: white;
+	text-shadow: 1px 1px 0px black;
+}
+
+ul li
+{
+	color: white;
+}
+
+article h1
+{
+	color: white;
+	text-shadow: 2px 2px 1px black;
+}
+
+.flottant
+{
+	float: right;
+}
+
+aside h1
+{
+	text-shadow: 2px 2px 1px black;
+	text-decoration: underline;
+}
+
+aside .max
+{
+	margin-right: 1em;
+}
+aside
+{
+	flex: 1.2;
+	position: relative;
+	background-color: #706b64;
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 1em;
+}
+
+aside p
+{
+	text-shadow: 1px 1px 0px black;
+}
+}
+
+#sécuridoc
+{
+	text-align: center;
+}
+
+#sécuridoc img
+{
+	border: 1px solid #181818;
+}
+
+/*Footer */
+
+footer
+{
+	margin-top: 5em;
+}
+
+#pieds
+{
+	display: flex;
+	text-align: justify;
+	border: 2px white solid;
+	text-shadow: 2px 2px 1px black;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+#Contact
+{
+	margin-right: 100px;
+	flex: 3;
+}
+
+#Contact p
+{
+	font-size: 0.9em;
+	color: white;
+}
+
+#Contact h1
+{
+	font-size: 1.1em;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	text-decoration: underline;
+}
+
+#Contact a
+{
+	font-size: 0.9em;
+	color: white;
+}
+
+#Contact a:hover
+{
+	color: #760001;
+	border-bottom: 3px solid #760001;
+}
+
+#Mention p
+{
+	font-size: 0.9em;
+	color: white;
+	width: 20px
+	min-width: 400px;
+}
+
+#Mention h1
+{
+	font-size: 1.1em;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	text-decoration: underline;
+}
+
+
+#lien
+{
+	display: flex;
+	margin-right: 20em;
+}
+
+#lien p
+{
+	margin-right: 1em;
+
+}
+
+#Copyright
+{
+	text-align: center;
+	color: white;
+	font-size: 0.9em;
+}
+
+
+/* ici on va mettre nos propriétés média*/ 
+
+@media all and (max-width: 1024px) 
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+
+		nav
+	{
+		width: auto;
+		text-align: left;
+	}
+
+	nav ul
+	{
+		flex-direction: column;
+	}
+
+	nav li
+	{
+		padding-left: 4px;
+	}
+
+	nav a 
+	{
+		font-size: 1.1em;
+	}
+
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+
+		#image_sécuridoc
+	{
+		display: none;
+		
+	}
+
+	#images
+	{
+		flex-direction: column;
+		width: 110px;
+	}
+
+	section
+	{
+		flex-direction: column;
+	}
+
+	article, aside 
+	{
+		width: auto;
+		margin-bottom: 15px;
+	}
+
+	#sécuridoc img
+	{
+		width: 110px;
+		float: right;
+		margin-left: 15px;
+	}
+
+	aside p:last-child   
+	{
+		text-align: center;
+	}
+
+}
